@@ -28,8 +28,7 @@ echo "btop 安裝完成。"
 echo "正在安装其他常用套件..."
 sudo apt install -y \
     net-tools \
-
-# 启动 qemu-guest-agent 服务
+    
 echo "啟用 qemu-guest-agent 中..."
 sudo systemctl enable --now qemu-guest-agent
 
