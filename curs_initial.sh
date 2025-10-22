@@ -37,11 +37,6 @@ echo "設定 ufw 防火牆中..."
 sudo ufw allow 22
 sudo ufw enable
 
-# 清理不需要的套件
-echo "清理系统..."
-sudo apt autoremove -y
-sudo apt autoclean
-
 echo "================================"
 echo "系统初始化完成！"
 echo "================================"
